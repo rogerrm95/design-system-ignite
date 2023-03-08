@@ -66,10 +66,14 @@
 
  - No package.json adicionar a seguinte flag nos scripts de build e dev: --external react
 
+ - ComponentProps: Herda/extrai quais são as propriedades que um componente pode receber
+
 ## Stitches
  - framework para criação e estilização de componentes em react.
  - CSS-in-JS
  - Suporte ao SSR
+
+ - Termos: Variants
 
 ## StoryBook
  - Ferramenta para documentação dos componentes no Front-end.
@@ -77,9 +81,15 @@
  - Permite adicionar Addons(Plugins), exemplo: Acessibilidade, testes(jest, cypress) etc.
 
  - Observação: documentação recomanda realizar a instalação em um projeto já existente, para que assim durante a instalação, o storybook identifica o tipo do projeto (react, vue, angular) e cria toda estrutura, isso para projetos onde utiliza APENAS 1 tecnologia.
- 
+
  - Instalação: npx sb init --builder @storybook/builder-vite --type react --use-npm
  - Instalação²: npm i vite @vitejs/plugin-react -D
+
+### Componentes
+ - Ao criar um story (component), além de criar um default, é necessário criar ao menos uma variação do componente para que o storybook não apresente erro/aviso;
+
+ - Termos:
+    - Story(eis);
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
