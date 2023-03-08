@@ -56,8 +56,24 @@
  - Instalação: npm i -D eslint @rocketseat/eslint-config
  - Nova pasta: eslint-config
 
+# Ferramentas
+
+## React
+ - Instalar o react como dependência de 'DESENVOLVIMENTO';
+ - Instalaar como produção iria aumentar drasticamente o tamanho do pacote;
+
+ - Instalação: npm i -D react @types/react @types/react-dom
+
+ - No package.json adicionar a seguinte flag nos scripts de build e dev: --external react
+
+## Stitches
+ - framework para criação e estilização de componentes em react.
+ - CSS-in-JS
+ - Suporte ao SSR
+
+## StoryBook
+
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
  - Criar um package.json com o comando 'npm init -y';
  - Criar uma pasta SRC em tokens e desenvolver os tokens;
-
