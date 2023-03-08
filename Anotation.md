@@ -85,11 +85,24 @@
  - Instalação: npx sb init --builder @storybook/builder-vite --type react --use-npm
  - Instalação²: npm i vite @vitejs/plugin-react -D
 
+ - Tema Dark
+ -- Criar uma arquivo em .storybook chamado manager.js e adicionar o código com base na documentação da ferramenta.
+
+ - Tipo de Documentação de componentes: Typescript ou MDX
+
+ - Uma das coisas mais relevantes para se documentar além dos componentes, são os tokens (cores, tamanhos de fonts, espaçamento etc);
+
 ### Componentes
  - Ao criar um story (component), além de criar um default, é necessário criar ao menos uma variação do componente para que o storybook não apresente erro/aviso;
 
+ - Fonts: para implementar fonts externas é necessário adicionar os links no arquivo preview-head.html em .storybook;
+
  - Termos:
     - Story(eis);
+    - StoryObj;
+    - Meta;
+    - Args: Propriedades;
+    - Extensão MDX: markdown + JSX
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
