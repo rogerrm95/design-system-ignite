@@ -52,6 +52,10 @@
  -- base.json: Configuração base do Typescript
  -- react.json: Qualquer outro pacote que utilize React
 
+## Eslint
+ - Instalação: npm i -D eslint @rocketseat/eslint-config
+ - Nova pasta: eslint-config
+
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
  - Criar um package.json com o comando 'npm init -y';
