@@ -72,6 +72,14 @@
  - Suporte ao SSR
 
 ## StoryBook
+ - Ferramenta para documentação dos componentes no Front-end.
+ - Ideia principal: permitir desenvolver e manipular DS sem a necessidade se saber programação.
+ - Permite adicionar Addons(Plugins), exemplo: Acessibilidade, testes(jest, cypress) etc.
+
+ - Observação: documentação recomanda realizar a instalação em um projeto já existente, para que assim durante a instalação, o storybook identifica o tipo do projeto (react, vue, angular) e cria toda estrutura, isso para projetos onde utiliza APENAS 1 tecnologia.
+ 
+ - Instalação: npx sb init --builder @storybook/builder-vite --type react --use-npm
+ - Instalação²: npm i vite @vitejs/plugin-react -D
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
