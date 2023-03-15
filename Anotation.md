@@ -52,6 +52,14 @@
  -- base.json: Configuração base do Typescript
  -- react.json: Qualquer outro pacote que utilize React
 
+## Turbo Repo
+ - Instalação: npm i turbo@latest -D
+ - Utilização: Utilizado para 2 proprósitos principais quando esta trabalhando com o monorepo:
+ -- 1. Possibilitar a Execução dos script em todos os pacotes ao mesmo tempo, como por exemplo, o script de "dev";
+ -- 2. Acelerar o processo de build da aplicação, guardando uma versão em cache conforme a aplicação vai sendo desenvolvida;
+
+ Dicas: remote caching (integração com a vercel, amazon, azure, google etc).
+
 ## Eslint
  - Instalação: npm i -D eslint @rocketseat/eslint-config
  - Nova pasta: eslint-config
