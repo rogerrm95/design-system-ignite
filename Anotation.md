@@ -22,7 +22,7 @@
  - Uber Base Web;
 
 ## Components
- - [ ] Text
+ - [X] Text
  - [ ] Heading (Cabeçalhos)
  - [ ] Box / Card
  - [ ] Button
