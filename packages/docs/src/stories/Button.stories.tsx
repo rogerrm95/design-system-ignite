@@ -3,7 +3,7 @@ import { Button, ButtonProps } from '@ignite-ui/react'
 
 // PADRÃO //
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
     children: 'Enviar',

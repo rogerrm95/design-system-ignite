@@ -97,12 +97,12 @@
 
  - Fonts: para implementar fonts externas é necessário adicionar os links no arquivo preview-head.html em .storybook;
 
- - Termos:
-    - Story(eis);
-    - StoryObj;
-    - Meta;
-    - Args: Propriedades;
-    - Extensão MDX: markdown + JSX
+### Termos:
+ - Story(eis); 
+ - StoryObj; 
+ - Meta;
+ - Args: Propriedades;
+ - Extensão MDX: markdown + JSX
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
