@@ -23,7 +23,7 @@
 
 ## Components
  - [X] Text
- - [ ] Heading (Cabeçalhos)
+ - [X] Heading (Cabeçalhos)
  - [ ] Box / Card
  - [ ] Button
  - [ ] TextInput
@@ -116,3 +116,4 @@
  - Criar uma pasta packages / tokens, react e ts-config;
  - Criar um package.json com o comando 'npm init -y';
  - Criar uma pasta SRC em tokens e desenvolver os tokens;
+ - Criar um script para limpar cache automatizado;
