@@ -100,17 +100,22 @@
 
  - Uma das coisas mais relevantes para se documentar além dos componentes, são os tokens (cores, tamanhos de fonts, espaçamento etc);
 
-### Componentes
- - Ao criar um story (component), além de criar um default, é necessário criar ao menos uma variação do componente para que o storybook não apresente erro/aviso;
-
- - Fonts: para implementar fonts externas é necessário adicionar os links no arquivo preview-head.html em .storybook;
-
-### Termos:
+ ### Termos:
  - Story(eis); 
  - StoryObj; 
  - Meta;
  - Args: Propriedades;
  - Extensão MDX: markdown + JSX
+ - Decorator (Stotybook);
+ - Args e ArgTypes;
+
+### Componentes
+ - Ao criar um story (component), além de criar um default, é necessário criar ao menos uma variação do componente para que o storybook não apresente erro/aviso;
+
+ - Fonts: para implementar fonts externas é necessário adicionar os links no arquivo preview-head.html em .storybook;
+
+### Decorators
+ - Uma forma de customizar a view responsável por exibir os componentes no navegador. Podendo inserir outros elementos na view sem a necessidade deles serem filhos do componente.
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
