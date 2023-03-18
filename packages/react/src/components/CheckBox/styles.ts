@@ -24,6 +24,12 @@ export const CheckBoxContainer = styled(CheckBox.Root, {
   '&[data-state="checked"]': {
     background: '$ignite300',
   },
+
+  '&:disabled': {
+    cursor: 'not-allowed',
+    background: '$gray700',
+    border: '2px solid $gray700',
+  },
 })
 
 const slideIn = keyframes({
