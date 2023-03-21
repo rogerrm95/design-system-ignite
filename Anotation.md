@@ -60,6 +60,16 @@
 
  Dicas: remote caching (integração com a vercel, amazon, azure, google etc).
 
+## Changesets
+ - Utilizado para quando há pacotes publicos no qual serão disponibilizados pelo npm;
+ - Auxilio no controle do versionamento do MonoRepo;
+ 
+ - Instalação: npm i @changesets/cli
+ - Configuração: yarn changeset init
+ - Configurar scripts: changeset, version-packages e release;
+ - Comando: npm run changeset, poderá ser executado por qualquer agente no qual está mantendo aquele repositório ou realizando alguma alteração e a ideia do comando é mencionar as alterações realizadas no repositório;
+  
+
 ## Eslint
  - Instalação: npm i -D eslint @rocketseat/eslint-config
  - Nova pasta: eslint-config
@@ -116,6 +126,9 @@
 
 ### Decorators
  - Uma forma de customizar a view responsável por exibir os componentes no navegador. Podendo inserir outros elementos na view sem a necessidade deles serem filhos do componente.
+
+### Addons
+ - Acessibilidade: Plugin a11y;
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;

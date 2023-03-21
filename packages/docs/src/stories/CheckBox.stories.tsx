@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { CheckBox, CheckBoxProps, Box, Text } from '@ignite-ui/react'
+import { CheckBox, CheckBoxProps, Box, Text } from '@ignite-ui-roger/react'
 
 // PADRÃO //
 export default {
