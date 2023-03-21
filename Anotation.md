@@ -99,6 +99,12 @@
 
  - Uma das coisas mais relevantes para se documentar além dos componentes, são os tokens (cores, tamanhos de fonts, espaçamento etc);
 
+ ### Storybook Deployer
+ - Utilizado para realizar o deploy do design system;
+ 
+ - Instalação: npm i @storybook/storybook-deployer --save-dev
+ - Script: criar o script -> "deploy-storybook": "storybook-to-ghpages"
+
  ### Termos:
  - Story(eis); 
  - StoryObj; 
