@@ -21,17 +21,6 @@
  - Fluent Design System;
  - Uber Base Web;
 
-## Components
- - [X] Text
- - [X] Heading (Cabeçalhos)
- - [ ] Box / Card
- - [ ] Button
- - [ ] TextInput
- - [ ] TextArea
- - [ ] CheckBox
- - [ ] Avatar
- - [ ] MultiStep
-
 ## TSUP
  - Instalação: npm i tsup -D
  - Ferramenta utilizada para realizar a conversão do código em um pacote JS no qual poderá ser carregado por outras aplicações. (BUILD)
@@ -68,7 +57,7 @@
  - Configuração: yarn changeset init
  - Configurar scripts: changeset, version-packages e release;
  - Comando: npm run changeset, poderá ser executado por qualquer agente no qual está mantendo aquele repositório ou realizando alguma alteração e a ideia do comando é mencionar as alterações realizadas no repositório;
-  
+
 
 ## Eslint
  - Instalação: npm i -D eslint @rocketseat/eslint-config
