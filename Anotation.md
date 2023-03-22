@@ -21,25 +21,6 @@
  - Fluent Design System;
  - Uber Base Web;
 
-## TSUP
- - Instalação: npm i tsup -D
- - Ferramenta utilizada para realizar a conversão do código em um pacote JS no qual poderá ser carregado por outras aplicações. (BUILD)
- - Consegue conversar o código para diferentes formatos: Commum JS, ECMAScript Modules ou Require.
- - Mais perfomático que o build normal e utiliza o esbuild;
-
- - Criar 2 scripts: build e dev
-
-## MonoRepo
- - Conceito: Prática de alocar inúmeros projetos em um único repositório (pasta)
- - Conceito²: Monorepos são um modelo de arquitetura onde temos todas as partes da nossa aplicação (ou até mesmo todo o código fonte da empresa) em um único repositório isoladamente
-
- - Esta prática é utilizada quando a empresa possui projetos nos quais são dependentes entre si
- 
- - Criar um Package Global e configurar ele. Após isso, excluir das subpastas a pasta node_modules
-
- - Criar uma pasta: ts-config e dentro dela um arquivo base.json e react.json
- -- base.json: Configuração base do Typescript
- -- react.json: Qualquer outro pacote que utilize React
 
 # Ferramentas
 
@@ -59,6 +40,18 @@
  - Suporte ao SSR
 
  - Termos: Variants
+
+## MonoRepo
+ - Conceito: Prática de alocar inúmeros projetos em um único repositório (pasta)
+ - Conceito²: Monorepos são um modelo de arquitetura onde temos todas as partes da nossa aplicação (ou até mesmo todo o código fonte da empresa) em um único repositório isoladamente
+
+ - Esta prática é utilizada quando a empresa possui projetos nos quais são dependentes entre si
+ 
+ - Criar um Package Global e configurar ele. Após isso, excluir das subpastas a pasta node_modules
+
+ - Criar uma pasta: ts-config e dentro dela um arquivo base.json e react.json
+ -- base.json: Configuração base do Typescript
+ -- react.json: Qualquer outro pacote que utilize React
 
 ## Turbo Repo
  - Instalação: npm i turbo@latest -D
@@ -140,6 +133,14 @@
 
 ### Addons
  - Acessibilidade: Plugin a11y;
+
+## TSUP
+ - Instalação: npm i tsup -D
+ - Ferramenta utilizada para realizar a conversão do código em um pacote JS no qual poderá ser carregado por outras aplicações. (BUILD)
+ - Consegue conversar o código para diferentes formatos: Commum JS, ECMAScript Modules ou Require.
+ - Mais perfomático que o build normal e utiliza o esbuild;
+
+ - Criar 2 scripts: build e dev
 
 ## Geral
  - Criar uma pasta packages / tokens, react e ts-config;
