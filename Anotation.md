@@ -72,7 +72,6 @@
  - Reduzir o tempo de execução das actions ao realizar um workflow;
  - No site da Vercel - Docs > Projects > MonoRepo; procurar por external CI/CD;
  - Estando logado no plataforma, criar um Token conforme a documentação acima;
- 
 
 ## Changesets
  - Utilizado para quando há pacotes publicos no qual serão disponibilizados pelo npm;
@@ -116,6 +115,8 @@
   - Após a realização com sucesso do deploy, o github irá criar uma nova branch chamada "gh-pages";
   - Com isto, é necessário acessar Settings > Pages; e trocar a opção Source para 'deploy from a branch selecionando a branch criada acima e salvar;
   - Ao final, toda vez que for realizado atualização no repositório do github, irá ser executado mais uma action (gh-pages), e ao final será gerado o link para acesso á documentação do D.S online;
+
+  - Dica: no arquivo deploy.docs.yml adicionar cache: 'npm' conforme o exemplo no arquivo, para que ao realizar a build durante o workflow no github, o processo de instalação das dependencias tenha seu tempo reduzido.
 
  ### Termos:
  - Story(eis); 
