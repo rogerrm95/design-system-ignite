@@ -41,28 +41,6 @@
  -- base.json: Configuração base do Typescript
  -- react.json: Qualquer outro pacote que utilize React
 
-## Turbo Repo
- - Instalação: npm i turbo@latest -D
- - Utilização: Utilizado para 2 proprósitos principais quando esta trabalhando com o monorepo:
- -- 1. Possibilitar a Execução dos script em todos os pacotes ao mesmo tempo, como por exemplo, o script de "dev";
- -- 2. Acelerar o processo de build da aplicação, guardando uma versão em cache conforme a aplicação vai sendo desenvolvida;
-
- Dicas: remote caching (integração com a vercel, amazon, azure, google etc).
-
-## Changesets
- - Utilizado para quando há pacotes publicos no qual serão disponibilizados pelo npm;
- - Auxilio no controle do versionamento do MonoRepo;
- 
- - Instalação: npm i @changesets/cli
- - Configuração: yarn changeset init
- - Configurar scripts: changeset, version-packages e release;
- - Comando: npm run changeset, poderá ser executado por qualquer agente no qual está mantendo aquele repositório ou realizando alguma alteração e a ideia do comando é mencionar as alterações realizadas no repositório;
-
-
-## Eslint
- - Instalação: npm i -D eslint @rocketseat/eslint-config
- - Nova pasta: eslint-config
-
 # Ferramentas
 
 ## React
@@ -81,6 +59,33 @@
  - Suporte ao SSR
 
  - Termos: Variants
+
+## Turbo Repo
+ - Instalação: npm i turbo@latest -D
+ - Utilização: Utilizado para 2 proprósitos principais quando esta trabalhando com o monorepo:
+ -- 1. Possibilitar a Execução dos script em todos os pacotes ao mesmo tempo, como por exemplo, o script de "dev";
+ -- 2. Acelerar o processo de build da aplicação, guardando uma versão em cache conforme a aplicação vai sendo desenvolvida;
+
+ Dicas: remote caching (integração com a vercel, amazon, azure, google etc).
+
+### Remote Caching
+ - Reduzir o tempo de execução das actions ao realizar um workflow;
+ - No site da Vercel - Docs > Projects > MonoRepo; procurar por external CI/CD;
+ - Estando logado no plataforma, criar um Token conforme a documentação acima;
+ 
+
+## Changesets
+ - Utilizado para quando há pacotes publicos no qual serão disponibilizados pelo npm;
+ - Auxilio no controle do versionamento do MonoRepo;
+ 
+ - Instalação: npm i @changesets/cli
+ - Configuração: yarn changeset init
+ - Configurar scripts: changeset, version-packages e release;
+ - Comando: npm run changeset, poderá ser executado por qualquer agente no qual está mantendo aquele repositório ou realizando alguma alteração e a ideia do comando é mencionar as alterações realizadas no repositório;
+
+## Eslint
+ - Instalação: npm i -D eslint @rocketseat/eslint-config
+ - Nova pasta: eslint-config
 
 ## StoryBook
  - Ferramenta para documentação dos componentes no Front-end.
@@ -110,7 +115,7 @@
   - OBSERVAÇÃO: importante habilitar a opção de leitura e escrita em 'Workflow permissions' (Actions), para que action consiga realizar o deploy;
   - Após a realização com sucesso do deploy, o github irá criar uma nova branch chamada "gh-pages";
   - Com isto, é necessário acessar Settings > Pages; e trocar a opção Source para 'deploy from a branch selecionando a branch criada acima e salvar;
-   
+  - Ao final, toda vez que for realizado atualização no repositório do github, irá ser executado mais uma action (gh-pages), e ao final será gerado o link para acesso á documentação do D.S online;
 
  ### Termos:
  - Story(eis); 
