@@ -82,6 +82,9 @@
  - Configurar scripts: changeset, version-packages e release;
  - Comando: npm run changeset, poderá ser executado por qualquer agente no qual está mantendo aquele repositório ou realizando alguma alteração e a ideia do comando é mencionar as alterações realizadas no repositório;
 
+ - Publicando os pacotes NPM Automatizado (CI/CD): https://turbo.build/repo/docs/handbook/publishing-packages/versioning-and-publishing
+ - Seguir Documentação acima;
+
 ## Eslint
  - Instalação: npm i -D eslint @rocketseat/eslint-config
  - Nova pasta: eslint-config
