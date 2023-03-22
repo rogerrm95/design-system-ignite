@@ -105,6 +105,13 @@
  - Instalação: npm i @storybook/storybook-deployer --save-dev
  - Script: criar o script -> "deploy-storybook": "storybook-to-ghpages"
 
+ - Github Page:
+  - Criar uma pasta .github/workflows e criar um arquivo deploy.docs.yml antes de subir o commit pro github;
+  - OBSERVAÇÃO: importante habilitar a opção de leitura e escrita em 'Workflow permissions' (Actions), para que action consiga realizar o deploy;
+  - Após a realização com sucesso do deploy, o github irá criar uma nova branch chamada "gh-pages";
+  - Com isto, é necessário acessar Settings > Pages; e trocar a opção Source para 'deploy from a branch selecionando a branch criada acima e salvar;
+   
+
  ### Termos:
  - Story(eis); 
  - StoryObj; 
