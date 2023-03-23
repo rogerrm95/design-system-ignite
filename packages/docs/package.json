@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "start-storybook -p 6006",
+    "dev": "start-storybook -p 6007",
     "build": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages"
   },
@@ -35,8 +35,5 @@
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "engines": {
-    "node": "16.0.0"
   }
 }
