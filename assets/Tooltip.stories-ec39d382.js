@@ -1,0 +1,2 @@
+import{j as t}from"./jsx-runtime-1b2e1e5f.js";import{e as o,a as r}from"./index-51058625.js";import"./index-a6c6adb4.js";import"./iframe-c6487364.js";import"./index-d00a273f.js";const l={title:"Data display/Tooltip",component:o,args:{content:"The day is avaliable for you",children:t(r,{variant:"secondary",children:"Select day"})},argTypes:{children:{table:{disable:!0}},delayDuration:{control:{type:"number"}}}},p={},d=["Primary"];export{p as Primary,d as __namedExportsOrder,l as default};
+//# sourceMappingURL=Tooltip.stories-ec39d382.js.map
